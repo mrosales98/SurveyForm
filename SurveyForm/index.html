@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="style.css">
+<h1 id="title">Which is your favorite Star Wars Movie</h1>
+<p id="description">From one Star Wars fan to another, thank you for taking the time to complete this survey</p>
+
+<form id="survey-form">
+  <div class="input-element">
+    <label id="name-label">
+      Name
+    </label>
+    <input placeholder="name" id="name" type="text" required/>
+  </div>
+    <div class="input-element">
+    <label id="email-label">
+      Email
+    </label>
+    <input placeholder="email" id="email" type="email" 
+    required/>
+  </div>
+   <div class="input-element">
+    <label id="number-label">
+      Age
+    </label>
+    <input placeholder="age" id="number" min="8" max="100" type="number" required/>
+  </div>
+  <div class="input-element">
+    <label id="select-label">
+      Your favorite Star Wars Movie
+    </label>
+    <select id="dropdown">
+      <option>Star Wars Episode I - The Phantom Menace</option>
+      <option>Star Wars Episode II - Attack of the Clones</option>
+      <option>Star Wars Episode III - Revenge of the Sith</option>
+      <option>Solo: A Star Wars Story</option>
+      <option>Rogue One: A Star Wars Story</option>
+      <option>Star Wars Episode IV - A New Hope</option>
+      <option>Star Wars Episode V - The Empire Strikes Back</option>
+      <option>Star Wars Episode VI - Return of the Jedi</option>
+      <option>Star Wars: The Force Awakens</option>
+      <option>Star Wars: The Last Jedi</option>
+      <option>Star Wars: The Rise of Skywalker</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label>
+      Would you recommend Star Wars to a friend?
+    </label>
+    <div class="input-element">
+    <label><input type="radio" name="recommendation" value="opinion"/>Yes</label>
+    </div>
+   <div class="input-element">
+     <label><input type="radio" name="recommendation" value="opinion"/>No</label>
+     </div>
+   <div class="input-element">
+     <label><input type="radio" name="recommendation" value="opinion"/>Absolutely, Yes!</label>
+     <div>
+  </div>
+  <div class="input-element">
+    <label>
+      Why is this one your favorite?
+    </label>
+    <div class="input-element">
+    <label><input type="checkbox" name="movie" value="movie detail"/>Story</label>
+    </div>
+   <div class="input-element">
+     <label><input type="checkbox" name="movie" value="movie detail"/>Special Effects</label>
+     </div>
+   <div class="input-element">
+     <label><input type="checkbox" name="movie" value="movie detail"/>Action</label>
+</div>
+  <div class="input-element">
+    <label>Additional Star Wars Comments</label>
+    <textarea type="text" placeholder="May the Force be with you..."></textarea>
+  </div>
+  <button type="submit" id="submit">Submit</button>
+
+</form>
